@@ -1,0 +1,89 @@
+body {
+    background-color: #ddd;
+    margin: 0;
+    padding: 0;
+
+    font-family: verdana, arial, helvetica, sans-serif, tahoma;
+	font-size: 8pt;
+}
+
+p {
+    padding: 15px 50px;
+    margin: 15px;
+}
+
+p.header {
+    background-color: #222;
+    background-image: url('Logo150.png');
+    background-repeat: no-repeat;
+    background-position: 50px 50%;
+
+    color: #ddd;
+    
+    padding: 25px 50px 25px 225px;
+    margin: 0;
+
+    border-bottom: 1px solid #000;
+}
+
+p.tabs {
+    display: block;
+    float: right;
+    margin: 0 50px 25px 50px;
+    padding: 0;
+}
+
+p.tabs a {
+    display: block;
+    float: left;
+
+    width: 95px;
+    margin: 0 2px;
+    padding: 2px;
+    
+    background-color: #333;
+
+    text-align: center;
+    color: #ddd;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+p.tabs a.this {
+    font-weight: bold;
+    background-color: #555;
+    padding: 3px;
+}
+
+strong {
+    border-bottom: 1px dashed #444;
+    display: block;
+}
+p.news span {
+    display: block;
+    padding: 10px 25px;
+}
+
+p.footer {
+    color: #777;
+    text-align: center;
+}
+p.footer a {
+    color: #777;
+}
+
+img.author_pic {
+	display: block;
+	float: left;
+
+	margin: 2px 2px 50px 2px;
+	padding: 2px;
+
+	border: 1px solid white;
+	background-color: #222;
+}
+
+.wip {
+    color: #777;
+}
+
