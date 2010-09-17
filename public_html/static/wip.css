@@ -87,3 +87,45 @@ img.author_pic {
     color: #777;
 }
 
+/* SLight classes */
+.SLight_Toolbox_Plugin {
+    padding: 15px 50px;
+    margin: 15px;
+
+    display: block;
+    float: right;
+}
+
+.SLight_Content {
+    clear: both;
+    padding: 15px 50px;
+    margin: 15px;
+}
+
+.SLight_Notification {
+    display: block;
+
+    margin: 10px;
+    padding: 10px;
+
+    border: 1px solid gray;
+    background-color: silver;
+}
+
+/* SLight Action classes */
+.SLight_Toolbox_Plugin a {
+    text-decoration: none;
+
+    border-bottom: 1px dashed gray;
+
+    padding: 1px 2px;
+}
+.SLight_New_Action {
+    color: green;
+}
+
+
+/* Debug */
+.SLight_Object {
+	border: 1px dotted silver;
+}
