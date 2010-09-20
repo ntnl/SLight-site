@@ -1,29 +1,33 @@
 body {
     background-color: #ddd;
     margin: 0;
-    padding: 0;
+    padding: 75px 45px;
 
     font-family: verdana, arial, helvetica, sans-serif, tahoma;
 	font-size: 8pt;
 }
 
-p {
-    padding: 15px 50px;
-    margin: 15px;
-}
+div#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
 
-p.header {
     background-color: #222;
     background-image: url('Logo150.png');
     background-repeat: no-repeat;
     background-position: 50px 50%;
 
     color: #ddd;
-    
-    padding: 25px 50px 25px 225px;
+
+    padding: 0 50px 0 225px;
     margin: 0;
 
     border-bottom: 1px solid #000;
+}
+div#header p {
+    padding: 15px 0;
 }
 
 p.tabs {
@@ -64,11 +68,11 @@ p.news span {
     padding: 10px 25px;
 }
 
-p.footer {
+div#footer {
     color: #777;
     text-align: center;
 }
-p.footer a {
+div#footer a {
     color: #777;
 }
 
@@ -98,7 +102,7 @@ img.author_pic {
 
 .SLight_Content {
     clear: both;
-    padding: 15px 50px;
+    padding: 15px 0;
     margin: 15px;
 }
 
@@ -110,6 +114,59 @@ img.author_pic {
 
     border: 1px solid gray;
     background-color: silver;
+}
+
+.SLight_Language_Addon {
+    position: absolute;
+    top: 10px;
+    right: 65px;
+}
+.SLight_Language_Addon a {
+    display: block;
+}
+
+.SLight_Sysinfo_Addon {
+}
+
+form .Entry,
+form .SelectEntry,
+form .TextEntry {
+    margin-bottom: 5px;
+}
+form .Entry .Label,
+form .SelectEntry .Label,
+form .TextEntry .Label {
+    color: #555;
+}
+form .FF {
+    margin-top: 1px;
+    margin-left: 10px;
+}
+form .Buttons {
+    text-align: center;
+}
+form .FF input,
+form .FF textarea,
+form .FF select {
+    background-color: #eee;
+    border: 1px solid #aaa;
+    color: #333;
+}
+form .FF textarea {
+    width: 500px;
+    height: 128px;
+}
+form .Error {
+    display: block;
+    border-left: 1px solid #a00;
+    border-bottom: 1px solid #a00;
+    
+    color: #a00;
+
+    padding: 5px 25px 2px 2px;
+    margin-left: 25px;
+
+    width: 450px;
 }
 
 /* SLight Action classes */
