@@ -30,35 +30,6 @@ div#header p {
     padding: 15px 0;
 }
 
-p.tabs {
-    display: block;
-    float: right;
-    margin: 0 50px 25px 50px;
-    padding: 0;
-}
-
-p.tabs a {
-    display: block;
-    float: left;
-
-    width: 95px;
-    margin: 0 2px;
-    padding: 2px;
-    
-    background-color: #333;
-
-    text-align: center;
-    color: #ddd;
-    border-left: 1px solid #000;
-    border-right: 1px solid #000;
-    border-bottom: 1px solid #000;
-}
-p.tabs a.this {
-    font-weight: bold;
-    background-color: #555;
-    padding: 3px;
-}
-
 strong {
     border-bottom: 1px dashed #444;
     display: block;
@@ -92,16 +63,51 @@ img.author_pic {
 }
 
 /* SLight classes */
+div.SLight_Menu_Addon {
+    display: block;
+    float: right;
+    margin: 0 50px 10px 50px;
+    padding: 0;
+}
+
+div.SLight_Path_Addon {
+    display: block;
+    margin: 10px 0 25px 0;
+    padding: 0;
+}
+
+div.SLight_Menu_Addon a {
+    display: block;
+    float: left;
+
+    width: 95px;
+    margin: 0 2px;
+    padding: 2px;
+    
+    background-color: #333;
+
+    text-align: center;
+    color: #ddd;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+div.SLight_Menu_Addon a.Current {
+    font-weight: bold;
+    background-color: #555;
+    padding: 3px;
+}
+
 .SLight_Toolbox_Plugin {
-    padding: 15px 50px;
-    margin: 15px;
+    padding-left: 128px;
 
     display: block;
     float: right;
+    
+    border-bottom: 1px dashed gray;
 }
 
 .SLight_Content {
-    clear: both;
     padding: 15px 0;
     margin: 15px;
 }
@@ -126,6 +132,22 @@ img.author_pic {
 }
 
 .SLight_Sysinfo_Addon {
+}
+
+.SLight_Submenu_Addon {
+    display: block;
+    float: left;
+
+    margin: 25px 5px 250px 5px;
+    padding: 5px;
+
+    background-color: #222222;
+    color: #000;
+}
+.SLight_Submenu_Addon a {
+    display: block;
+    color: #ddd;
+    margin: 5px;
 }
 
 form .Entry,
@@ -169,20 +191,37 @@ form .Error {
     width: 450px;
 }
 
+.SLight_Timebox {
+    display: block;
+    text-align: right;
+    color: gray;
+}
+
+.SLight_Object {
+    margin: 5px 0;
+    padding: 2px;
+    /* Debug */
+	border: 1px dotted #bbb;
+	background-color: #e5e5e5;
+}
+.SLight_Object .Core .Label {
+    display: block;
+    color: gray;
+}
+.SLight_Object .Core .Value {
+    display: block;
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+
 /* SLight Action classes */
 .SLight_Toolbox_Plugin a {
     text-decoration: none;
 
-    border-bottom: 1px dashed gray;
-
     padding: 1px 2px;
+    margin: 1px 5px;
 }
 .SLight_New_Action {
     color: green;
 }
 
-
-/* Debug */
-.SLight_Object {
-	border: 1px dotted silver;
-}
