@@ -63,7 +63,7 @@ img.author_pic {
 }
 
 /* SLight classes */
-div.SLight_Menu_Addon {
+div.SLight_Rootmenu_Addon {
     display: block;
     float: right;
     margin: 0 50px 10px 50px;
@@ -76,7 +76,7 @@ div.SLight_Path_Addon {
     padding: 0;
 }
 
-div.SLight_Menu_Addon a {
+div.SLight_Rootmenu_Addon a {
     display: block;
     float: left;
 
@@ -92,12 +92,13 @@ div.SLight_Menu_Addon a {
     border-right: 1px solid #000;
     border-bottom: 1px solid #000;
 }
-div.SLight_Menu_Addon a.Current {
+div.SLight_Rootmenu_Addon a.Current {
     font-weight: bold;
     background-color: #555;
     padding: 3px;
 }
 
+.SLight_Toolbox,
 .SLight_Toolbox_Plugin {
     padding-left: 128px;
 
@@ -199,8 +200,8 @@ form .Error {
 
 .SLight_Object {
     margin: 5px 0;
-    padding: 2px;
-    /* Debug */
+    padding: 2px 2px 16px 2px;
+
 	border: 1px dotted #bbb;
 	background-color: #e5e5e5;
 }
@@ -215,13 +216,47 @@ form .Error {
 }
 
 /* SLight Action classes */
-.SLight_Toolbox_Plugin a {
+.SLight_Toolbox_Plugin a,
+.SLight_Toolbox a {
     text-decoration: none;
 
     padding: 1px 2px;
     margin: 1px 5px;
 }
-.SLight_New_Action {
+.SLight_New_Action,
+.SLight_AddContent_Action {
     color: green;
+}
+.SLight_Edit_Action {
+    color: #950;
+}
+.SLight_Download_Action {
+    color: #00a;
+}
+.SLight_Delete_Action {
+    color: #c00;
+}
+
+/* Dialogs */
+
+.SLight_Delete_Dialog {
+    display: block;
+    padding: 15px;
+    border-left: 2px solid #b00;
+}
+.SLight_Delete_Dialog .Buttons {
+    margin: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.SLight_Delete_Dialog .Buttons a.Yes {
+    color: #b00;
+    padding: 0 5px;
+    font-weight: bold;
+}
+.SLight_Delete_Dialog .Buttons a.No {
+    color: #0b0;
+    padding: 0 5px;
+    font-weight: bold;
 }
 
