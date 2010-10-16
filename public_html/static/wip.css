@@ -6,6 +6,9 @@ body {
     font-family: verdana, arial, helvetica, sans-serif, tahoma;
 	font-size: 8pt;
 }
+p {
+    margin: 0 0 2px 0;
+}
 
 div#header {
     position: absolute;
@@ -130,6 +133,7 @@ div.SLight_Rootmenu_Addon a.Current {
 }
 .SLight_Language_Addon a {
     display: block;
+    color: silver;
 }
 
 .SLight_Sysinfo_Addon {
@@ -141,14 +145,14 @@ div.SLight_Rootmenu_Addon a.Current {
 
     margin: 25px 5px 250px 5px;
     padding: 5px;
-
-    background-color: #222222;
-    color: #000;
 }
 .SLight_Submenu_Addon a {
     display: block;
-    color: #ddd;
     margin: 5px;
+    padding: 2px;
+
+    background-color: #222222;
+    color: #ddd;
 }
 
 form .Entry,
@@ -199,11 +203,13 @@ form .Error {
 }
 
 .SLight_Object {
-    margin: 5px 0;
+    margin: 0 0 5px 0;
     padding: 2px 2px 16px 2px;
 
+    /*
 	border: 1px dotted #bbb;
 	background-color: #e5e5e5;
+    */
 }
 .SLight_Object .Core .Label {
     display: block;
@@ -211,7 +217,7 @@ form .Error {
 }
 .SLight_Object .Core .Value {
     display: block;
-    margin-left: 5px;
+    padding-left: 5px;
     margin-bottom: 3px;
 }
 
@@ -257,6 +263,27 @@ form .Error {
 .SLight_Delete_Dialog .Buttons a.No {
     color: #0b0;
     padding: 0 5px;
+    font-weight: bold;
+}
+
+.V-Title {
+    font-size: +150%;
+    font-weight: bold;
+    border-bottom: 1px dashed black;
+    padding: 2px 15px;
+}
+
+.O-Author .V-Name {
+    font-size: +125%;
+    font-weight: bold;
+    border-bottom: 1px dashed black;
+    padding: 2px 5px;
+}
+.O-Author .Asset {
+    float: left;
+    margin: 1px 5px 15px 1px;
+}
+.V-Role {
     font-weight: bold;
 }
 
