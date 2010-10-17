@@ -282,6 +282,9 @@ form .Error {
 .O-Author .Asset {
     float: left;
     margin: 1px 5px 15px 1px;
+    padding: 1px;
+    border: 1px solid black;
+    background-color: white;
 }
 .V-Role {
     font-weight: bold;
