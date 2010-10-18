@@ -273,6 +273,13 @@ form .Error {
     padding: 2px 15px;
 }
 
+.V-NewsDate {
+    float: left;
+    font-weight: bold;
+    font-size: +150%;
+    padding: 2px 12px 2px 2px;
+}
+
 .O-Author .V-Name {
     font-size: +125%;
     font-weight: bold;
