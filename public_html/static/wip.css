@@ -1,7 +1,7 @@
 body {
     background-color: #ddd;
     margin: 0;
-    padding: 75px 45px;
+    padding: 94px 45px;
 
     font-family: verdana, arial, helvetica, sans-serif, tahoma;
 	font-size: 8pt;
@@ -15,22 +15,24 @@ div#header {
     top: 0;
     left: 0;
     right: 0;
-    height: 75px;
+    height: 94px;
 
     background-color: #222;
-    background-image: url('Logo150.png');
+    background-image: url('Logo256.png');
     background-repeat: no-repeat;
     background-position: 50px 50%;
 
     color: #ddd;
 
-    padding: 0 50px 0 225px;
+    padding: 0 50px 0 285px;
     margin: 0;
 
     border-bottom: 1px solid #000;
 }
 div#header p {
-    padding: 15px 0;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 110%;
 }
 
 strong {
@@ -66,6 +68,26 @@ img.author_pic {
 }
 
 /* SLight classes */
+div.SL_UserPanel_Addon {
+    float: right;
+    margin-right: 42px;
+}
+div.SL_UserPanel_Addon span.Label {
+    color: #777;
+}
+div.SL_UserPanel_Addon form .FF input {
+    border: 1px solid #333;
+    background-color: #ddd;
+    color: #444;
+}
+div.SL_UserPanel_Addon form .Buttons {
+    margin-top: 2px;
+}
+div.SL_UserPanel_Addon form .Buttons input {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 div.SLight_Rootmenu_Addon {
     display: block;
     float: right;
@@ -161,6 +183,7 @@ form .TextEntry {
     margin-bottom: 5px;
 }
 form .Entry .Label,
+form .PasswordEntry .Label,
 form .SelectEntry .Label,
 form .TextEntry .Label {
     color: #555;
@@ -264,6 +287,14 @@ form .Error {
     color: #0b0;
     padding: 0 5px;
     font-weight: bold;
+}
+
+.O-SL_Error_AccessDenied {
+    display: block;
+    padding: 15px;
+    background-color: #eee;
+    border: 1px solid #aaa;
+    border-left: 2px solid #b00;
 }
 
 .V-Title {
