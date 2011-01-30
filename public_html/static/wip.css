@@ -63,6 +63,49 @@ img.author_pic {
 	background-color: #222;
 }
 
+#teaser {
+    clear: both;
+    float: right;
+
+    width: 256px;
+    height: 256px;
+
+    margin: 16px;
+}
+#teaser .Label {
+    display: block;
+    color: #777;
+}
+#teaser em {
+    display: block;
+    margin: 2px;
+
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-style: normal;
+}
+
+.Download_BigB {
+    display: block;
+    float: right;
+
+    height: 128px;
+    width: 256px;
+
+    background-image: url('download-button.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    color: white;
+    font-weight: bold;
+    font-size: 24pt;
+    line-height: 120px;
+    text-align: center;
+    text-decoration: none;
+}
+
 .wip {
     color: #777;
 }
@@ -136,6 +179,9 @@ div.SLight_Rootmenu_Addon a.Current {
 .SLight_Content {
     padding: 15px 0;
     margin: 15px;
+}
+.SLight_Content p {
+    margin-bottom: 8px;
 }
 
 .SLight_Notification {

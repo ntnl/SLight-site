@@ -15,7 +15,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.0 r9654"
-   sodipodi:docname="BigButtons.svg">
+   sodipodi:docname="BigButtons.svg"
+   inkscape:export-filename="/home/natanael/Projekty/Perl/SLight-site/Design/BigButtons-512.png"
+   inkscape:export-xdpi="180"
+   inkscape:export-ydpi="180">
   <defs
      id="defs4">
     <linearGradient
@@ -297,15 +300,15 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="146.98493"
-     inkscape:cy="115.78355"
+     inkscape:cx="136.11831"
+     inkscape:cy="134.2555"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1526"
-     inkscape:window-height="975"
-     inkscape:window-x="288"
-     inkscape:window-y="48"
+     inkscape:window-width="693"
+     inkscape:window-height="642"
+     inkscape:window-x="115"
+     inkscape:window-y="0"
      inkscape:window-maximized="0">
     <inkscape:grid
        type="xygrid"
